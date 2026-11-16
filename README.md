@@ -1,25 +1,20 @@
-### ARCT — Neural Network Architectures From Scratch
+### ARCT The Neural Network from scratch
 
-**ARCT** is a personal AI research and engineering project exploring neural network architectures built completely from scratch. Starting with zero-dependency, Python implementations and scaling up to vectorized NumPy engines and game-playing agents.
+It was created out of curiosity and leads me deeper through the jungle of AI and machine learning everyday.
 
+### Naming Choices
 
-### Naming Choices & Architecture System
+The Neural Networks follow a naming scheme.
 
-Every model in this repository follows a strict naming scheme.
-**`<Generation/Name><Language/Variant>-<Type> (<Inputs>, <Outputs>, <Parameters>)`**
+Name of the Model/Family   Libary Use   Coding Language   Type   (Inputs, Outputs, Total Parameters)
 
-* **'ARCT' (Generation 1):** Pure Python implementations with **zero external libraries** (< 100 parameters).
-* **'ARCT-R' (Rebound / Recoded):** Vectorized architectures powered by **NumPy** for deeper networks and up to 50,000+ parameters.
-* **Language Suffixes:** py (Python), cpp (C++), j (Java).
-* **Type Suffixes:** -gm (Gameplaying agents), -lm (Language models).
+Name:            |ARCT|
+Libary Use:      |ARCT| for without libraries  and |ARCT-R or ARCTR| for Rebound featuring libraries like NumPy or Random
+Coding language: |ARCTpy| Py -> Python/3, j -> Java, cpp -> C++
+Type:            |ARCT-gm| -gm for GAME playing network, -lm for language Model in which case the language will be displayed
 
+This Repository Includes
+- ARCTpy (2,2,12) with 2 Inputs, 1 Hidden Layer with 2 Neurons and 2 outputs (2,2,2). 8 Weights and 4 Biases.
+- ARCTpy (3,2,26) with 3 Inputs, 1 Hidden Layer with 4 Neurons and 2 Outputs (3,4,2). 20 Weights and 6 Biases.
 
-### Repository Structure
-
-### ARCTpy/ (Pure Python — Zero Dependencies)
-* **ARCT2_2_12.py — ARCTpy (2,2,12)**
-  * **Architecture:** 2 -> 2 -> 2 Multi-Layer Perceptron (8 weights, 4 biases).
-* **ARCT3_2_26.py — ARCTpy (3,2,26)**
-  * **Architecture:** 3 -> 4 -> 2 Multi-Layer Perceptron (20 weights, 6 biases).
-
-*Created by **Vexelpy** — MIT License*
+Coded in Curiosity Vexelpy with -MIT License
