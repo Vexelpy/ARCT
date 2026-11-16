@@ -6,7 +6,7 @@
 ### Naming Choices & Architecture System
 
 Every model in this repository follows a strict naming scheme.
-**<Generation/Name><Language/Variant>-<Type> (<Inputs>, <Outputs>, <Parameters>)**
+**`<Generation/Name><Language/Variant>-<Type> (<Inputs>, <Outputs>, <Parameters>)`**
 
 * **'ARCT' (Generation 1):** Pure Python implementations with **zero external libraries** (< 100 parameters).
 * **'ARCT-R' (Rebound / Recoded):** Vectorized architectures powered by **NumPy** for deeper networks and up to 50,000+ parameters.
